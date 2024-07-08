@@ -1,0 +1,24 @@
+.calendarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.calendarHeader {
+    width: 100%;
+}
+
+.calendarImage {
+    width: 100%;
+    height: auto;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 100%;
+}
