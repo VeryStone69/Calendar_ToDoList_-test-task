@@ -11,7 +11,7 @@ A To-Do list presented as a calendar. Click on a day to open a modal with the da
 3. **Holiday Marking**: Uses `isDayOff()` API to mark holidays.
 4. **Weekly Tasks**: View tasks for the entire week.
 5. **TypeScript**: Ensures type safety.
-6**Clear Structure**: Easy to understand and maintain.
+6. **Clear Structure**: Easy to understand and maintain.
 
 ## Technologies Used
 
