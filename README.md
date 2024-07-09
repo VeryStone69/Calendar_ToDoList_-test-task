@@ -1,4 +1,5 @@
 # My To-Do Calendar
+React | Vite | TypeScript
 
 ## Project Description
 
