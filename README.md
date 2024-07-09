@@ -1,33 +1,41 @@
-# React + TypeScript + Vite
+# My To-Do Calendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+A To-Do list presented as a calendar. Click on a day to open a modal with the day's tasks. Create, delete, and mark tasks as completed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+1. **UI/UX Focused**: Pleasant and intuitive interface.
+2. **Responsive Design**: Adapts to all screen sizes.
+3. **Holiday Marking**: Uses `isDayOff()` API to mark holidays.
+4. **Weekly Tasks**: View tasks for the entire week.
+5. **TypeScript**: Ensures type safety.
+6**Clear Structure**: Easy to understand and maintain.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**
+- **TypeScript**
+- **Context API**
+- **CSS Modules**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation and Setup
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
- # Обработка ошибок от сервера
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/VeryStone69/Calendar_ToDoList_-test-task.git
+    cd my-todo-calendar
+    ```
 
-# Для тестов установлены библиотеки Jest и React Testing Library
+2. **Install dependencies**:
+    ```sh
+    yarn install
+    ```
+
+3. **Run in development mode**:
+    ```sh
+    yarn dev
+    ```
+
+For questions or suggestions, email [carcer2007@gmail.com](mailto:carcer2007@gmail.com).
