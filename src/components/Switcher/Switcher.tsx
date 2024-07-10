@@ -6,7 +6,6 @@ type PropsType = {
 }
 export const Switcher = (props: PropsType) => {
     const [checkSwitch, setCheckSwitch] = useState(false)
-    console.log("WeeklyTasks IS RENDERING")
     const handleChangeSwitch = () => {
         setCheckSwitch(prevState => !prevState)
         props.callback(checkSwitch)
